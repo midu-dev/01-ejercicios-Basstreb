@@ -1,7 +1,7 @@
 {
   "name": "ejercicios-nodejs",
   "version": "1.0.0",
-  "description": "First exercise of the Node.js course.",
+  "description": "First exercise of the Node.js course",
   "main": "index.js",
   "directories": {
     "test": "test"
