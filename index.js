@@ -3,8 +3,13 @@ const path = require("node:path");
 
 // Ejercicio 2
 async function writeFile(filePath, data, callback) {
-  const dir = path.dirname(filePath);
-  await fs.mkdir(dir, { recursive: true });
+  try {
+    const dir = path.dirname(filePath);
+    await fs.mkdir(dir, { recursive: true });
+  } catch (err) {
+    callback(err);
+  }
+
   await fs
     .writeFile(filePath, data)
     .then(() => callback(null))
