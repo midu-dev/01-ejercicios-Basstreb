@@ -1,0 +1,29 @@
+{
+  "name": "ejercicios-nodejs",
+  "version": "1.0.0",
+  "description": "First exercise of the Node.js course",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/midu-dev/01-ejercicios-Basstreb.git"
+  },
+  "keywords": [
+    "midudev",
+    "nodejs",
+    "course",
+    "primer",
+    "exercise"
+  ],
+  "author": "Daniel Lozano Campano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midu-dev/01-ejercicios-Basstreb/issues"
+  },
+  "homepage": "https://github.com/midu-dev/01-ejercicios-Basstreb#readme"
+}
